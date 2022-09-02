@@ -1,0 +1,49 @@
+Q1.    Write a python program to create and print a dictonary which store your information.(name,age,gender...)
+Ans.     n=int(inout("Enter How Manyu Data You Want to Keep: "))
+         d1={}
+         for e in range(n):
+               key=eval(input("Enter Key Value: "))
+               data=eval(input("Enter Data Value: "))
+               d1[key]=data
+         print(d1)
+
+Q2.    Write a python program to access the item of a dictonary by referring to its key name.
+Ans.    d1={1:"Rajeev",2:"ChamchamG",3:"Harsh",4:"Rahul"}
+        for e in d1:
+            print(d1[e])
+             
+Q3.    Write a pyhton program to get a list of the values from the dictonary.
+Ans.    d1={1:"Rajeev",2:"ChamchamG",3:"Harsh",4:"Rahul"}
+        print(sorted(d1))
+               
+Q4.    Write a program to change the value of data by reffering to it's key value.
+Ans.    d1={1:"Rajeev",2:"ChamchamG",3:"Harsh",4:"Rahul"}
+        d1[4]='Muskan'
+        print(d1)
+        
+Q5.    Write a python program to print all key name in the dictonary.one-by-one.
+Ans.    d1={1:"Rajeev",2:"ChamchamG",3:"Harsh",4:"Rahul"}
+        for e in d1.keys():
+               print(e)
+               
+Q6.    Write a python program to create a dictonaries that contain three dictonaries.(nested)
+Ans.    
+
+Q7.    Write a python program to create three dictonaries.then create one dictonaries that will contain the other three dictonaries.
+Ans.    
+
+Q8.    Write a python program to convert to list onto a dictonaries in a way that iem from list1 and data from the list2.
+Ans.    l1=[1,2,3,4,5]
+        l2=["rajeev","chamchamG","Harsh","Rahul","Raj"]
+        
+        
+Q9.    Write a python program to merge two python dictonaries into one dictonaries.
+Ans.   
+
+
+Q10.  Write a python program to get the key of lowest value from the dictonary.
+         d1={'c':92,'Java':66,'python':85}
+Ans.   d1={'c':92,'Java':66,'python':85}
+       min(d1)
+       print(d1)
+         
